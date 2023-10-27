@@ -1,7 +1,7 @@
 # Linux-settings
 
 vim
-├── .vimrc
+├── .vimrc  
 fish
 ├── config.fish
 └── functions
