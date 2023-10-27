@@ -1,8 +1,8 @@
 # Linux-settings
 
-vim
+vim  
 ├── .vimrc  
-fish
-├── config.fish
-└── functions
-    └── fish_prompt.fish
+fish  
+├── config.fish  
+└── functions  
+    └── fish_prompt.fish  
