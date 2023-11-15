@@ -1,4 +1,4 @@
 LOGNAME=$(hostname | tr [A-Z] [a-z])
 LOGTIME=$(date +%Y%m%d)
 export HISTORY_FILE=/var/log/usermonitor/"$LOGNAME"_"$LOGTIME".log
-export PROMPT_COMMAND='{ date "+%F %H:%M #### $(who | awk "{print \$1,\$2,\$5}" | sed -e "s/[()]//g") #### $(id | awk "{print \$1}") #### $(history 1 | { read x cmd; echo "$cmd"; })"; } >>$HISTORY_FILE'
+export PROMPT_COMMAND='{ date "+%y-%m-%d %T #### $(who | awk "{print \$1,\$2,\$5}" | sed -e "s/[()]//g") #### $(id | awk "{print \$1}") #### $(history 1 | { read x cmd; echo "$cmd"; })"; } >>$HISTORY_FILE'
