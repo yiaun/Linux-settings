@@ -1,5 +1,4 @@
 # Linux-settings
-Be too lazy to write
 
 ```bash
 #### 选择fish风格
