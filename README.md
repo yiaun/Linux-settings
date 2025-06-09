@@ -7,7 +7,7 @@ fish_config prompt choose astronaut
 #### 
 cp /usr/share/fish/functions/prompt_pwd.fish ~/.config/fish/functions/
 
-cat > ~/.config/fish/functions/prompt_pwd.fish << EOF
+cat > ~/.config/fish/functions/prompt_pwd.fish << 'EOF'
 function prompt_pwd --description 'short CWD for the prompt'
     set -q argv[1]
     or set argv $PWD
@@ -22,5 +22,5 @@ function prompt_pwd --description 'short CWD for the prompt'
         echo $tmp
     end
 end
-EOF
+'EOF'
 ```
